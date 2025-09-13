@@ -11,3 +11,10 @@ A **machine learning web application** built with **Streamlit** that predicts wh
 - Deployed with Streamlit Cloud
 
 ## 📂 Project Structure
+
+diabetes-prediction/
+│── app.py # Main Streamlit app
+│── diabetes.csv # Dataset
+│── model_training.py # Model training script
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
