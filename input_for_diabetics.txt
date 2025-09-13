@@ -1,0 +1,68 @@
+ Input Fields Explained
+These are the 7 features (after removing "Pregnancies") from the Pima Indians Diabetes Dataset:
+
+Field	Description	Typical Range
+Glucose	Plasma glucose concentration (mg/dL)	70 – 200
+Blood Pressure	Diastolic blood pressure (mm Hg)	60 – 90
+Skin Thickness	Triceps skinfold thickness (mm)	10 – 50
+Insulin	2-Hour serum insulin (mu U/ml)	15 – 276
+BMI	Body Mass Index (weight/height²)	18 – 40
+Diabetes Pedigree Function (DPF)	Genetic likelihood of diabetes	0.1 – 2.5
+Age	Age of the person	21 – 80+
+
+ Sample Input for a Non-Diabetic Case
+You can try entering:
+
+Glucose: 95
+
+Blood Pressure: 72
+
+Skin Thickness: 23
+
+Insulin: 94
+
+BMI: 22.0
+
+Diabetes Pedigree Function: 0.2
+
+Age: 29
+
+Expected Result: You are Not Diabetic
+
+Sample Input for a Diabetic Case
+Try entering:
+
+Glucose: 160
+
+Blood Pressure: 88
+
+Skin Thickness: 35
+
+Insulin: 130
+
+BMI: 35.0
+
+Diabetes Pedigree Function: 1.2
+
+Age: 50
+
+Expected Result: You are Diabetic
+
+📘 Notes on Fields:
+🔹 Glucose
+Most important feature in prediction
+
+High glucose (≥140 mg/dL) after fasting is often a diabetes indicator
+
+🔹 BMI
+≥ 30 → Obese
+
+25–29.9 → Overweight
+
+18.5–24.9 → Normal
+
+🔹 Diabetes Pedigree Function
+Reflects hereditary risk
+
+Higher = stronger family history of diabetes
+
